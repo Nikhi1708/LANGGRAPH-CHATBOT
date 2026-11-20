@@ -1,10 +1,7 @@
-# frontend streeming file 
-
 import streamlit as st
 from langgraph_backend import chatbot               
 from langchain_core.messages  import HumanMessage
 
-# this is my second change in stremming 
 
 CONFIG = {'configurable': {'thread_id': 'thread-1'}}
 
